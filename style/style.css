@@ -296,3 +296,47 @@ section{
     font-weight: 500;
     margin-left: 4px;
 }
+
+/* NewsLetter */
+
+.NewsLetter{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.NewsLetter h2{
+    font-size: 1.7rem;
+}
+
+.NewsLetter form{
+    background: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    padding: 6px 10px;
+    border-radius: 5rem;
+    width: 40%;
+    position: relative;
+    left: 19rem;
+   
+}
+
+.NewsLetter form input{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.NewsLetter #email{
+    width: 280px;
+}
+
+.NewsLetter .btn{
+    padding: 12px 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.NewsLetter 
